@@ -1,0 +1,35 @@
+#xpath-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    z-index: 10000;
+    height: 2cm; /* Ensures 1cm height for better visibility */
+}
+
+#xpath-input, #xpath-result {
+    height: 2cm;
+    width: 65%;
+    margin-right: 5px;
+    resize: none;
+    background: rgba(20, 20, 20, 0.9);
+    color: white;
+    border: 1px solid #555;
+    padding: 5px;
+}
+
+#xpath-result {
+    width: 35%;
+}
+
+#close-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
